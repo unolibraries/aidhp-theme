@@ -14,7 +14,7 @@
   html {
     font-family: "Hind", sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
     color: #555;
   }
@@ -212,7 +212,7 @@
   }
 
   #site-title img {
-    max-height: 50.5px;
+    max-height: 120.5px;
     width: auto;
     vertical-align: top;
   }
@@ -240,6 +240,17 @@
 
   .menu-toggle:before {
     content: "";
+    display: inline-block;
+  }
+
+  .menu-toggle:after{
+    content: 'Menu';
+    display: inline-block;
+    padding-left: 1px;
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 600;
+    padding-bottom: 7px;
   }
 
   .search-toggle:before {

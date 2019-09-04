@@ -220,6 +220,16 @@ header {
     content: $lnr-menu;
 }
 
+.menu-toggle:after {
+content: 'Menu';
+    display: inline-block;
+    padding-left: 8px;
+    font-size: 11px;
+    vertical-align: middle;
+    font-weight: 600;
+    padding-bottom: 1px;
+}
+
 .search-toggle:before {
     content: $lnr-magnifier;
 }
